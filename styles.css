@@ -1,56 +1,178 @@
-.header {
-    display: flex;
-    justify-content: flex-end;
-    justify-content: space-between;
-    align-items: center;
+
+  /* this selector selects all divs inside of .flex-container */
+  .Header{
     background-color: #1f2937;
-}
-
-.links{
+    min-height: 60px;
+    color: white;
     display: flex;
-    gap: 10px;
-    justify-content: flex-end;
-    margin: 16px;
-}
+   
+  }
 
-h1{
-    color: aliceblue;
-}
-a{
-    color: aliceblue;
+  .Logo{
+    flex: 1;
+    margin-left: 150px;
+  }
 
-}
-body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin: 0;
-    min-height: 100vh;
+  .Links{
+    flex: 1;
     display: flex;
+    justify-content: end;
+    margin-right: 150px;
+  }
+
+
+  .body{
+    display: flex;
+  }
+
+  .header-container {
+    background-color: #1f2937;
+    min-height: 280px;
+    min-width: 200px;
+    display: flex;
+
+  }
+
+  .header-title{
+    font-weight: bolder;
+  }
+
+  .header-main{
+    color: #f9faf8;
+    margin-left: 200px;
+    font-size: 48px;
+    max-width: 300px;
+    max-height: 100px;
+  }
+
+  .sub-text{
+    color: #e5e7eb;
+    font-size: 18px;
+    min-width: 300px;
+    min-height: 100px;
+  }
+
+  button{
+    background-color: #3882f6;
+    color: white;
+    border-radius: 5%;
+    font-size: 16px;
+    padding: 10px 24px;
+    border: 2px solid white;
+  }
+
+  .place-holder{
+    background-color: #e5e7eb;
+    color: #1f2937;
+    margin-left: 200px;
+    font-size: 18px;
+    max-width: 300px;
+    max-height: 200px;
+  }
+
+  .flex-container1{
+    min-height: 340px;
+  }
+
+  .container-title{
+    font-size: 48px;
+    font-weight: bolder;
+    text-align: center;
+  }
+
+  .boxes{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+
+  .box-1{
+    height: 115px;
+    width: 115px;
+    border: 5px solid blue;
+    border-radius: 25px;
+    margin-right: 30px;
+  }
+
+  .sub-text-boxes{
+    height: 115px;
+    max-width: 145px;
+    border-radius: 25px;
+    margin-right: 30px;
+    color: #1f2937;;
+  }
+
+  .box-2{
+    height: 115px;
+    width: 115px;
+    border: 5px solid blue;
+    border-radius: 25px;
+    margin-right: 30px;
+  }
+
+  .box-3{
+    height: 115px;
+    width: 115px;
+    border: 5px solid blue;
+    border-radius: 25px;
+    margin-right: 30px;
+  }
+
+  .box-4{
+    height: 115px;
+    width: 115px;
+    border: 5px solid blue;
+    border-radius: 25px;
+  }
+
+  .Asgard{
+    background-color: #e5e7eb;
+    min-height: 340px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
   }
 
-  img{
-    width: 100px;
-    margin-left: 60px;
+  .Quote{
+    max-width: 720px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
   }
 
-  .opener{
+  .Thor{
+    margin-left: 500px;
+    font-weight: bold;
+  }
+
+  .Call-to-action{
+    background-color: rgb(47, 130, 255);
+    border: 5px solid rgb(47, 130, 255);
+    border-radius: 10px;
+    margin: 90px 160px 90px;
+    min-height: 100px;
     display: flex;
-    border-style: solid;
-    border-width: 2px;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
   }
 
-  .sign-up{
-    max-width: 100px;
-    
+  .Action-title{
+    color: #e5e7eb;
+    font-size: larger;
+    font-weight: bolder;
   }
 
-  .opener-image{
-    background-color: gray;
-    flex: 1;
+  .Action-content{
+    color: #e5e7eb;
   }
 
-  .opener-text{
-    flex: 1;
-    border-style: solid;
-    border-width: 2px;
+  .Footer{
+    background-color: #1f2937;
+    color: #e5e7eb;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
