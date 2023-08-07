@@ -1,3 +1,42 @@
+.section--2__cards .card .img{
+  border-radius: 8px;
+  width: 140px;
+  height: 140px;
+}
+
+.section--2__cards .card .img--1{
+  background-color: rgb(255, 115, 0);
+}
+
+.section--2__cards .card{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  color: rgb(164, 70, 117);
+  font-weight: 200;
+}
+
+.section--2__cards{
+  display: flex;
+  gap: 36px;
+}
+
+.section--2__header{
+  display: flex;
+  justify-content: center;
+  color: rgb(164, 70, 117);
+}
+
+.section-1 .hero__right{
+  align-self: stretch;
+  flex: 1.24;
+  border-radius: 8px;
+  background: url(pexels-brian-phetmeuangmay-9827181.jpg);
+  background-size: cover;
+}
+
 .button--cta{
   font-size: 16px;
   font-weight: 600;
