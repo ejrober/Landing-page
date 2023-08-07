@@ -1,3 +1,15 @@
+
+
+.section--2{
+  background-color: rgb(254, 226, 240);
+  padding-block: 45px 60px;
+  padding-inline: clamp(16px, 12vw, 181px);
+}
+
+.section--2 .wrapper{
+  gap: 36px;
+}
+
 .section--2__cards .card .img{
   border-radius: 8px;
   width: 140px;
@@ -14,7 +26,7 @@
   flex-direction: column;
   align-items: center;
   gap: 16px;
-  color: rgb(164, 70, 117);
+  color: rgb(255, 115, 0);
   font-weight: 200;
 }
 
@@ -26,7 +38,7 @@
 .section--2__header{
   display: flex;
   justify-content: center;
-  color: rgb(164, 70, 117);
+  color: rgb(255, 115, 0);
 }
 
 .section-1 .hero__right{
@@ -51,7 +63,7 @@
 
 p{
   margin-top: 0;
-  color: rgb(240, 240, 240);
+  color: rgb(248, 247, 247);
 }
 
 .section-1 .hero__left-heading{
